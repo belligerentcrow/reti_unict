@@ -2,7 +2,7 @@
 
 1. [Lezione 1](01_04-03-24_reti.md#1-lezione----reti---04-03-24)
    1. [Informazioni del corso](01_04-03-24_reti.md#informazioni-del-corso)
-   2. [Reti : Strutture a livelli](01_04-03-24_reti.md#reti--struttura-a-livelli)\
+   2. [Reti : Strutture a livelli](01_04-03-24_reti.md#reti--struttura-a-livelli)
       1. [Tipi di canali](01_04-03-24_reti.md#tipi-di-canali)
    3. [Tipi di comunicazione](01_04-03-24_reti.md#tipi-di-comunicazione)
    4. [Discussione di sicurezza informatica](01_04-03-24_reti.md#discussione-di-sicurezza-informatica)<br><br>
@@ -12,4 +12,23 @@
       1. [Problemi della commutazione a pacchetti](02_06-03-24_reti.md#problemi-della-commutazione-a-pacchetti)
       2. [Circuiti Virtuali](02_06-03-24_reti.md#circuito-virtuale)
    3. [Sicurezza informatica e hacking](02_06-03-24_reti.md#sicurezza)
-   4. [Dos/DDos](02_06-03-24_reti.md#attacco-dos)
+   4. [Dos/DDos](02_06-03-24_reti.md#attacco-dos)<br><br>
+3. [Lezione 3](03_11-03-24_reti.md#3-lezione----reti)  03_11-03-24_reti.md
+   1. [Livello Applicativo](03_11-03-24_reti.md#livello-applicativo)
+      1. [Modello client-server](03_11-03-24_reti.md#modello-client---server)
+      2. [Sincronizzazione](03_11-03-24_reti.md#sincronizzazione)
+      3. [Socket](03_11-03-24_reti.md#socket)
+      4. [Indirizzamento e Process IDs](03_11-03-24_reti.md#indirizzamento-e-process-ids)
+      5. [Ports e comunicazione tra processi via rete](03_11-03-24_reti.md#ports-e-comunicazione-tra-processi-su-macchine-diverse-collegate-via-rete)
+      6. [Protocolli e requisiti protocollo di comunicazione](03_11-03-24_reti.md#protocolli-e-requisiti-del-protocollo-di-comunicazione)
+         1. [Data Integrity](03_11-03-24_reti.md#data-integrity)
+         2. [Throughput](03_11-03-24_reti.md#throughput)
+         3. [Timing](03_11-03-24_reti.md#timing)
+         4. [Security](03_11-03-24_reti.md#sicurezza)
+   2. [Livello di trasporto e protocolli](03_11-03-24_reti.md#livello-di-trasporto-e-protocolli)
+   3. [Comunicazione ports e sistema operativo](03_11-03-24_reti.md#comunicazione-ports-e-sistema-operativo)
+   4. [Esempio protocollo: Telnet](03_11-03-24_reti.md#esempio-di-protocollo-telnet)
+      1. [Problemi Telnet](03_11-03-24_reti.md#problemi-telnet)
+   5. [FTP - File Transfer Protocol](03_11-03-24_reti.md#ftp----file-transfer-protocol)
+   6. [Protocolli con stato o senza stato](03_11-03-24_reti.md#protocolli-con-stato-o-senza-stato)
+      1. [Protocollo HTTP: Storia, funzionamento, evoluzione](03_11-03-24_reti.md#protocollo-http-storia-funzionamento-evoluzione)
