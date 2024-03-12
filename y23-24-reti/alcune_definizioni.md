@@ -51,3 +51,22 @@ Hybrid Fiber Coax
 
 * **CMTS**
 Cable Modem Termination System
+
+* **FTTH** 
+Fiber to the Home; fornire fibra ottica dalla centrale locale direttamente alle abitazioni. 
+Una delle reti di distribuzioni della FTTH e' la **fibra diretta**, in cui una singola fibra collega la centrale all'abitazione. Di solito pero' e' condivisa. 
+Due architetture gestiscono la suddivisione nelle diverse abitazioni degli utenti: la **AON** (active optical networks, ethernet commutate(?)) e la **PON** (Passive optical networks)(Usate nel servizio FIOS di Verizon).
+
+* **ONT**
+Optical Network Terminator, un terminatore ottico che e' in una abitazione, connesso a uno splitter (separatore ottico) di quartiere utilizzato nelle PON. 
+
+* **OLT**
+Optical Line Terminator, situato nella centrale locale della compagnia telefonica, e' dove le linee di fibra ottica arrivano partendo dalle abitazioni. Fornisce la conversione tra segnali ottici ed elettrici. 
+
+* **FWA** 
+5G Fixed Wireless Access, che promette un accesso residenziale ad alta velocita' ma senza fare installare cavi costosi e soggetti a guasti. Utilizzando la tecnologia **Beam-Forming**, i dati vengono inviati in modalita' wireless dalla stazione di base al modem di casa. Un Router Wireless Wi-Fi e' collegato al modem in modo simile a come un routere wireless wifi e' collegato a un modem via cavo o DLS. 
+
+* **LAN**
+Local Area Network. Un esempio di LAN e' Ethernet. Generalmente tra i 100Mbps e i 10Gbps. (i server di piu'). Le LAN wireless (Basate sulla tecnologia IEEE 802.11 anche detta Wi-Fi) sono molto diffuse.
+
+ 
