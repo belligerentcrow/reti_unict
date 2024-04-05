@@ -70,3 +70,16 @@
    7. [TCP vs UDP](07_04-03-24_reti.md#tcp-vs-udp)
    8. [TCP](07_04-03-24_reti.md#tcp)
    9. [TCP state model](07_04-03-24_reti.md#tcp-state-model)
+
+8.  [**Lezione 8**](08_05-04-24_reti.md#8-lezione----reti-di-calcolatori)
+      1. [Pacchetto TCP](08_05-04-24_reti.md#pacchetto-tcp)
+      2. [Timer](08_05-04-24_reti.md#timer)
+         1. [RTT, SampleRTT, Estimated RTT, EWMA, RTO](08_05-04-24_reti.md#rtt-samplertt-estimated-rtt-ewma-rto)
+         2. [Fast Retrasmit](08_05-04-24_reti.md#fast-retrasmit)
+      3. [Controllo del flusso -- TCP flow control](08_05-04-24_reti.md#controllo-del-flusso----tcp-flow-control)
+         1. [Algoritmo di Nagle](08_05-04-24_reti.md#algoritmo-di-nagle)
+      4. [Agreeing to establish a connection](08_05-04-24_reti.md#agreeing-to-establish-a-connection)
+         1. [Approccio 1974 : two-ways handshake.](08_05-04-24_reti.md#approccio-1974--two-ways-handshake)
+         2. [Three Ways Handshake](08_05-04-24_reti.md#three-ways-handshake)
+         3. [Come si sceglie un numero di sequenza?](08_05-04-24_reti.md#come-si-sceglie-un-numero-di-sequenza)
+
