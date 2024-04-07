@@ -70,4 +70,22 @@ Optical Line Terminator, situato nella centrale locale della compagnia telefonic
 * **LAN**  
 Local Area Network. Un esempio di LAN e' Ethernet. Generalmente tra i 100Mbps e i 10Gbps. (i server di piu'). Le LAN wireless (Basate sulla tecnologia IEEE 802.11 anche detta Wi-Fi) sono molto diffuse.
 
- 
+* **UTP**  
+Unshielded Twisted Pair, Doppino intrecciato non schermato, collegamento di comunicazione utilizzato comunemente per le LAN. 10Mbps - 10Gbps. 
+
+* **Cavo Coassiale**  
+Costituito da due conduttori di rame concentrici. Comune nei sistemi televisivi e nell'accesso ad internet via cavo. Puo' essere utilizzato come mezzo condiviso vincolato. Centinaia di Mbps.  
+
+* **Fibra Ottica**  
+Mezzo piu' veloce, conduce tramite impulsi di luce, fino a decine o centinaia di Gbps. Utilizzate nei grandi cavi intercontinentali e a lungo raggio, ma sono anche il mezzo piu' costoso.  
+
+* **Canali Radio Terrestri**  
+Distinguibili in distanze piccole (Bluetooth), locali (LAN wireless), e aree vaste (Tecnologie di accesso cellulare). 
+
+* **Canali Radio Satellitari**  
+Esistono quelli geostazionari (**GEO**, geostationary earth orbit) e quelli a bassa quota (**LEO**, low-earth orbiting). Spesso utilizzati quando i collegamenti via cavo non sono viabili.  
+
+* **.**
+
+---
+pg 54print, 77 digital
