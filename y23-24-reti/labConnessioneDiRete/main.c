@@ -3,9 +3,9 @@
 #include <string.h>
 #include <arpa/inet.h>
 
-int main(int argc, ){
+int main( ){
 
-    
+    // sistemare 
 
     return 0;
 }
