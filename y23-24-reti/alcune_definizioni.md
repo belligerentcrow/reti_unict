@@ -14,7 +14,7 @@ Internet Service Provider. Tramite cui i sistemi periferici accedono ad internet
 Un insieme di commutatori a pacchetto e di collegaemtni
 
 * **TCP**  
-Transmission Control Protocol
+Transmission Control Protocol. Primo protocollo TCP/IP : 1983 come standard degli host ARPAnet (sostituisce NCP)
 
 * **IP**  
 Internet Protocol. Specifica il formato dei pacchetti scambiati tra router e sistemi periferici. 
@@ -85,7 +85,23 @@ Distinguibili in distanze piccole (Bluetooth), locali (LAN wireless), e aree vas
 * **Canali Radio Satellitari**  
 Esistono quelli geostazionari (**GEO**, geostationary earth orbit) e quelli a bassa quota (**LEO**, low-earth orbiting). Spesso utilizzati quando i collegamenti via cavo non sono viabili.  
 
-* **.**
+* **ARPA**  
+Advanced Research Project Agency, MIT. Alcuni dei primi progetti di networking negli anni 60/70. Cessa di esistere negli anni 90.  
+
+
+* **NCP**  
+Network-Control Protocol, 1972, RFC 001. Primo protocollo tra i nodi ARPAnet.  
+
+* **DNS**  
+Domain Name System --> negli anni 80 si iniziano ad associare i nomi internet leggibili agli indirizzi a 32 bit di IP.  
+
+* **World Wide Web** 
+Nasce il web (89-91, al CERN da Tim Berners-Lee) e nuove applicazioni come motori di ricerca (google, bing), e-commerce (amazon, ebay), social networks (facebook).  
 
 ---
-pg 54print, 77 digital
+
+## Capitolo 2
+
+
+---
+pg 69print (nice), 92 digital
