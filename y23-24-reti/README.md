@@ -100,9 +100,33 @@
       10. [Perche' Vegas non si usa?](09_10-04-24_reti.md#perche-vegas-non-si-usa)<br><br>
 
 10. [**Lezione 10**](10_12-04-24_reti.md#10-lezione----reti-di-calcolatori)
-- [Recap comprensivo -- congestione e soluzioni](10_12-04-24_reti.md#recap-comprensivo----congestione-e-soluzioni)
-    - [note sul controllo congestione](10_12-04-24_reti.md#note-sul-controllo-congestione)
-- [Dimostrazione della TCP fairness --  Spartizione di connessioni. Triangolo](10_12-04-24_reti.md#dimostrazione-della-tcp-fairness-----spartizione-di-connessioni-triangolo)
-    - [Pero' ...](10_12-04-24_reti.md#pero-)
-- [HTTP3.0](10_12-04-24_reti.md#http30)
-    - [Caratteristiche](10_12-04-24_reti.md#caratteristiche)<br><br>
+      1. [Recap comprensivo -- congestione e soluzioni](10_12-04-24_reti.md#recap-comprensivo----congestione-e-soluzioni)
+         1. [note sul controllo congestione](10_12-04-24_reti.md#note-sul-controllo-congestione)
+      2. [Dimostrazione della TCP fairness --  Spartizione di connessioni. Triangolo](10_12-04-24_reti.md#dimostrazione-della-tcp-fairness-----spartizione-di-connessioni-triangolo)
+         1. [Pero' ...](10_12-04-24_reti.md#pero-)
+      3. [HTTP3.0](10_12-04-24_reti.md#http30)
+         1. [Caratteristiche](10_12-04-24_reti.md#caratteristiche)<br><br>
+
+11. [**Lezione 11**](11_15-04-24_reti.md#11-lezione----reti-di-calcolatori)
+      1. [Introduzione al Livello di Rete](11_15-04-24_reti.md#introduzione-al-livello-di-rete)
+         1. [Network Service Model](11_15-04-24_reti.md#network-service-model)
+         2. [Approccio **Datagram**](11_15-04-24_reti.md#approccio-datagram)
+         3. [Approccio a **Circuito virtuale**](11_15-04-24_reti.md#approccio-a-circuito-virtuale)
+         4. [Chi li usa?](11_15-04-24_reti.md#chi-li-usa)
+      2. [ROUTER.](11_15-04-24_reti.md#router)
+         1. [Switching fabric](11_15-04-24_reti.md#switching-fabric)
+         2. [Quanto deve essere grande il buffer?](11_15-04-24_reti.md#quanto-deve-essere-grande-il-buffer)
+      3. [Indirizzi IP](11_15-04-24_reti.md#indirizzi-ip)
+         1. [Chi rilascia gli IP?](11_15-04-24_reti.md#chi-rilascia-gli-ip)
+         2. [IPv4 Datagram Format](11_15-04-24_reti.md#ipv4-datagram-format)
+      4. [Frammentazione](11_15-04-24_reti.md#frammentazione)
+         1. [Indirizzi IP](11_15-04-24_reti.md#indirizzi-ip)
+         2. [LAN addresses and IPv4](11_15-04-24_reti.md#lan-addresses-and-ipv4)
+         3. [ARP protocol](11_15-04-24_reti.md#arp-protocol)<br><br>  
+  
+12. [**Lezione 12**](12_17-04-24_reti.md#12-lezione----reti-di-calcolatori)
+      1. [Recap](12_17-04-24_reti.md#recap)
+      2. [Maschere / Netmasks](12_17-04-24_reti.md#maschere--netmasks)
+         1. [IPv4 Address Allocation](12_17-04-24_reti.md#ipv4-address-allocation)
+         2. [IPv6](12_17-04-24_reti.md#ipv6)
+      3. [Sottoreti e tabella di routing](12_17-04-24_reti.md#sottoreti-e-tabella-di-routing)
