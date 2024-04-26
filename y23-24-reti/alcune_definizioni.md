@@ -101,7 +101,12 @@ Nasce il web (89-91, al CERN da Tim Berners-Lee) e nuove applicazioni come motor
 ---
 
 ## Capitolo 2
+  
+* Parole chiave:    
+  * Modello Client/Server
+  * Modello Peer2Peer
+  * Data centers (arcitetture che riescono a gestire grandissime quantita' di richieste)
 
 
 ---
-pg 69print (nice), 92 digital
+pg 69print (nice), 97 digital
