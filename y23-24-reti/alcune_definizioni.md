@@ -108,5 +108,22 @@ Nasce il web (89-91, al CERN da Tim Berners-Lee) e nuove applicazioni come motor
   * Data centers (arcitetture che riescono a gestire grandissime quantita' di richieste)
 
 
+* **Processi comunicanti** 
+Programmi in esecuzione su sistemi che comunicano tra di loro tramite **Interprocess Communication**.  Tra sistemi diversi i processi possono comunicare scambiandosi **messaggi** attraverso la rete. 
+
+* **Processi Client e Server**
+Nel contesto di una sessione di comunicazione tra una coppia di processi, quello che avvia la comunicazione (contatta l'altro processo all'inizio della sessione) è indicato come client, mentre quello che attende di essere contattato per iniziare la connessione è detto server.  
+  
+* **Sockets** 
+Una interfaccia software che permette ai processi di comunicare attraverso la rete. E' l'interfaccia tra il livello applicativo e il livello di trasporto all'interno di un host. Un progettista di una applicazione ha controllo totale sul livello applicativo della socket, ma poco sul livello di trasporto. Puo' però sceglierne il protocollo di trasporto e a volte determinare alcuni parametri come la dimensione massima del buffere e del segmento.  
+  
+* **Indirizzamento**  
+
+Il destinatario del messaggio deve avere un indirizzo affinché il mittente possa recapitare ad esso messaggi. NOTA: l'indirizzo IP del server e' considerato fisso a differenza dei client, perche' deve essere noto ai client a priori. E' conosciuto dai DNS.  
+Inoltre il mittente deve anche sapere il processo a cui fa riferimento (numero di porta di destinazione). Alcuner applicazioni hanno numeri specifici di porta. 
+  
+
+
+
 ---
 pg 69print (nice), 97 digital
