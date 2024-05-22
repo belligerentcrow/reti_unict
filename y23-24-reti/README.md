@@ -206,7 +206,7 @@
 <details>
 <summary>
 
-[**Lezione 17**](./16-17_20-05-24_reti.md#16-lezione----reti-di-calcolatori)
+[**Lezione 16**](./16-17_20-05-24_reti.md#16-lezione----reti-di-calcolatori)
 </summary>
 
 1. [Error Connection  (recap)](#error-connection--recap)
@@ -216,4 +216,21 @@
     2. [**CSMA/CD (CSMA Con collision detection)**](#csmacd-csma-con-collision-detection)
     3. [Protocolllo senza collisione](#protocolllo-senza-collisione)
 4. [Taking Turns protocols](#taking-turns-protocols)
+</details>  
+
+<details>
+<summary>
+
+[**Lezione 17**](./17_22-05-24_reti.md)
+</summary>
+
+- [Ethernet](#ethernet)
+    - [Regole di Ethernet](#regole-di-ethernet)
+    - [Cablaggio](#cablaggio)
+    - [Frame ethernet](#frame-ethernet)
+    - [Codifica del segnale: Manchester Encoding](#codifica-del-segnale-manchester-encoding)
+- [Gigabit Ethernet](#gigabit-ethernet)
+    - [Hub vs Bridge](#hub-vs-bridge)
+    - [BRIDGE](#bridge)
+- [VLAN](#vlan)
 </details>
