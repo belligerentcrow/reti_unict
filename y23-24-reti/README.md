@@ -72,13 +72,13 @@
 [**Lezione 5**](05_18-03-24_reti.md#5-lezione----reti-di-calcolatori)
 </summary>
 
-1. [DHTML](05_18-03-24_reti.md#dhtml)
-2. [Proxy](05_18-03-24_reti.md#proxy)
-3. [SMTP](05_18-03-24_reti.md#smtp)
-4. [UUENCODE](05_18-03-24_reti.md#uuencode)
-   1. [Mail(ing) Lists](05_18-03-24_reti.md#mailing-lists)
-   2. [Server Email; problemi](05_18-03-24_reti.md#server-email-problemi)
-5. [DNS](05_18-03-24_reti.md#dns)<br><br>
+1. [DHTML -- Dynamic Hypertext Markup Language](#dhtml----dynamic-hypertext-markup-language)
+2. [Proxy](#proxy)
+3. [SMTP -- Simple Mailing Transfer Protocol](#smtp----simple-mailing-transfer-protocol)
+4. [**UUENCODE** -- Encoding di immagini](#uuencode----encoding-di-immagini)
+    1. [Mail(ing) Lists](#mailing-lists)
+    2. [Server Email; problemi](#server-email-problemi)
+5. [DNS -- Domain Name System](#dns----domain-name-system)<br><br>
 </details>
 
 <details>
