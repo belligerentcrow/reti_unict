@@ -1,0 +1,192 @@
+# defining network interfaces for the architecture by
+# editing and saving the /etc/network/interfaces file. 
+# node 1
+auto lo 
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 10.0.0.2
+    network 10.0.0.0
+    netmask 255.255.255.0
+    gateway 10.0.0.1
+    up ip route add default gw 10.0.0.1
+
+# node 2
+auto lo 
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 10.0.0.3
+    network 10.0.0.0
+    netmask 255.255.255.0
+    gateway 10.0.0.1
+    up ip route add default gw 10.0.0.1
+
+# switch_1
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet manual
+    pre-up ifconfig $IFACE up
+    up ip link set eth0 promisc on
+    post-down ifconfig $IFACE down
+
+auto eth1
+iface eth1 inet manual
+    pre-up ifconfig $IFACE up
+    up ip link set eth1 promisc on
+    post-down ifconfig $IFACE down
+
+auto eth2
+iface eth2 inet manual
+    pre-up ifconfig $IFACE up
+    up ip link set eth2 promisc on 
+    post-down ifconfig $IFACE down
+
+auto eth3
+iface eth3 inet manual
+    pre-up ifconfig $IFACE up
+    up ip link set eth3 promisc on
+    post-down ifconfig $IFACE down
+
+auto br0
+iface br0 inet manual
+    up ip link set eth0 master br0 
+    up ip link set eth1 master br0
+    up ip link set eth2 master br0
+    up ip link set eth3 master br0
+
+# router_home_1
+auto lo 
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 10.0.0.1
+    netmask 255.255.255.0
+    network 10.0.0.0
+    gateway 40.0.10.1
+    up ip route add default gw via 40.0.10.1
+
+auto eth1
+iface eth1 inet static
+    address 40.0.10.2
+    netmask 255.255.255.0
+    network 40.0.10.0
+    gateway 40.0.10.1
+    up ip route add default gw via 40.0.10.1
+
+# city_router
+auto lo 
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 40.0.10.1
+    netmask 255.255.255.0
+    network 40.0.10.0
+    up ip route add 10.0.0.0/24 via 40.0.10.2
+
+auto eth1
+iface eth1 inet static
+    address 40.0.20.1
+    netmask 255.255.255.0
+    network 40.0.20.0
+    up ip route add 20.0.0.0/24 via 40.0.20.2
+
+auto eth2
+iface eth2 inet static 
+    address 40.0.30.1
+    netmask 255.255.255.0
+    network 40.0.30.0
+    up ip route add 30.0.0.1 via 40.0.30.2
+
+auto eth3
+iface eth3 inet static
+    address 40.0.40.1
+    netmask 255.255.255.0
+    network 40.0.40.0
+    gateway 40.0.40.2
+    up ip route add default gw via 40.0.40.2
+
+# router_home_2
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 40.0.20.2
+    network 40.0.20.0
+    netmask 255.255.255.0
+    gateway 40.0.20.1
+    up ip add route 10.0.0.0/24 via 40.0.20.1
+    up ip add route default gw via 40.0.20.1
+
+auto eth1
+iface eth1 inet static
+    address 20.0.0.1
+    netmask 255.255.255.0
+    network 20.0.0.0
+    up ip add route default gw via 40.0.20.1
+
+# node_3
+auto lo 
+iface lo inet loopback
+
+auto eth0 
+iface eth0 inet static
+    address 20.0.0.2
+    network 20.0.0.0
+    netmask 255.255.255.0
+    up ip add route default gw via 20.0.0.1
+
+# router_youtube
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 40.0.30.2
+    network 40.0.30.0
+    netmask 255.255.255.0
+    gateway 40.0.30.1
+    up ip add route default gw via 40.0.30.1
+
+auto eth1
+iface eth1 inet static
+    address 30.0.0.1
+    network 30.0.0.0
+    netmask 255.255.255.0
+    gateway 40.0.30.1
+    up route add default gw via 40.0.30.1
+
+# switch_2
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet manual
+    pre-up ifconfig $IFACE up
+    up ip link set eth0 promisc on
+    post-down ifconfig $IFACE down
+
+auto eth1
+iface eth1 inet manual
+    pre-up ifconfig $IFACE up
+    up ip link set eth1 promisc on
+    post-down ifconfig $IFACE down
+
+auto eth2
+iface eth2 inet manual
+    pre-up ifconfig $IFACE up
+    up ip link set eth2 promisc on 
+    post-down ifconfig $IFACE down
+
+auto br0
+iface br0 inet manual
+    up ip link set eth0 master br0 
+    up ip link set eth1 master br0
+    up ip link set eth2 master br0
